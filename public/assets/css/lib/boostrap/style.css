@@ -1,0 +1,222 @@
+.columnas {
+    display: inline-block;
+    width: 70px;
+    height: 50px;
+    background-color: blueviolet;
+    text-align: center;
+    line-height: 50px;
+}
+
+.center-div {
+    width: 1260px;
+    margin: 0 auto;
+}
+
+.vacio {
+
+    clear: both;
+
+}
+
+.derecha {
+    float: right;
+}
+
+.izquierda {
+    float: left;
+}
+
+.verde {
+    background-color: aquamarine;
+}
+
+.naranja {
+    background-color: #e8bb55;
+}
+
+.morado {
+    background-color:  #c4a4d4;
+}
+
+.moradoclaro {
+    background-color:  #e4a4cc ;
+}
+
+.amarillo {
+    background-color: #f1db43;
+}
+
+
+.celeste {
+    background-color:  #accde0;
+}
+
+
+.verdeclaro {
+    background-color:   #93b8c4 ;
+}
+
+.verdebrillo {
+    background-color:  #dadb70 ;
+}
+
+
+.verdesuave {
+    background-color: #8cb489;
+}
+
+.naranjafuerte {
+    background-color: #de9b5b;
+}
+
+.colorvino {
+    background-color:  #bc7c71 ;
+}
+
+.bloqueador{
+    background-color: rgb(48, 48, 48);
+}
+
+.red {
+
+    background-color: red;
+}
+
+.gris {
+
+background-color: gray;
+margin-right: 800px;
+}
+
+.ordenador {
+
+    display: flex;
+
+}
+
+.alcanicos {
+
+width: 100px;
+height: 100px;
+background-color: #c4a4d4;
+margin: 10px;
+line-height: 50px;
+}
+
+.alcalinoterreos {
+
+    width: 100px;
+    height: 100px;
+    background-color: #e4a4cc;
+    margin-top: 10px;
+    line-height: 50px;
+    }
+
+    .alcalinoterreos {
+        width: 100px;
+        height: 100px;
+        background-color: #e4a4cc;
+        margin-top: 10px;
+        margin-left: -5px;
+        line-height: 50px;
+        }
+    
+    .transicionD {
+
+        width: 100px;
+        height: 100px;
+        background-color: #e8bb55;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+
+    .Actinidos{
+        width: 130px;
+        height: 20px;
+        background-color: #bc7c71;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+
+    .ordenador2 {
+
+        display: block;
+    }
+
+    .Lantanidos {
+        margin-left: 5px;
+        margin-top: 10px;
+        width: 130px;
+        height: 20px;
+        background-color: #de9b5b;
+    }
+
+
+    .otros {
+
+        background-color: #f1db43;
+        width: 130px;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 5px;
+        line-height: 50px;
+    }
+
+    .metaloides {
+        background-color: #dadb70;
+        width: 130px;
+        height: 132px;
+        margin-top: -25px;
+        margin-left: 5px;
+        text-align: center;
+
+
+    }
+
+    .menu2{
+
+        background-color: gray;
+        height: 30px;
+        margin-top: -25px;
+        width: 500px;
+    }
+
+    .otrosno {
+
+        background-color: #8cb489;
+        margin-top: 15px;
+        position: relative;
+        right: 445px;
+        height: 50px;
+    }
+
+    .Halogenos {
+
+        background-color: #93b8c4;
+        margin-top: 15px;
+        position: relative;
+        right: 349px;
+        height: 50px;
+        width: 100px;
+        line-height: 50px;
+        
+    }
+
+    .Gases {
+
+        background-color: #accde0;
+        margin-top: 15px;
+        position: relative;
+        right: 279px;
+        height: 50px;
+        width: 100px;
+    }
+
+
+ 
+
+.letra {
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+   
+}

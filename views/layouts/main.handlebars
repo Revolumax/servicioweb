@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicio Web</title>
+    <link rel="stylesheet" href="/assets/css/lib/boostrap/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/assets/css/styles/styles.css"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Servicio Web</a></li>
+            </ul>
+        </nav>
+    </header>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <div class="container">
+        <div class="formulario">
+        <form action="/api/agregar-datos" method="post">
+            <input  type="text" id="nombre" name="nombre" placeholder="Ingrese el nombre" class="form-control my-2" required>
+            <input  type="text" id="apellido" name="apellido" placeholder="Ingrese el apellido" class="form-control my-3" required>
+            <input  type="text" id="telefono" name="telefono" placeholder="Ingrese el telefono" class="form-control my-3" required>
+            <button type="submit" class="btn btn-primary">Agregar Datos</button>   
+        </form>
+    </div>
+        <br>
+        <br>
+        <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">Telefono</th>
+              </tr>
+            </thead>
+            <tbody>
+                {{#each users}}
+                <tr>
+                    <td>{{nombre}}</td>
+                    <td>{{apellido}}</td>
+                    <td>{{telefono}}</td>
+                </tr>
+                {{/each}}
+            </tbody>
+          </table>
+    </div>
+  
+</body>
+</html>
